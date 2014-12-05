@@ -1,0 +1,10 @@
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\bin\Debug\VisualCPMonitor.exe.config
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\bin\Debug\VisualCPMonitor.exe
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\bin\Debug\VisualCPMonitor.pdb
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\bin\Debug\VisualCPMonitor.xml
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.Resources.resources
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.vbproj.GenerateResource.Cache
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.exe
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.xml
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.pdb
+c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.Form1.resources
