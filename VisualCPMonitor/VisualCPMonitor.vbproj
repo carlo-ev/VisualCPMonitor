@@ -51,6 +51,7 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,11 +71,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="detailedInfo.Designer.vb">
+      <DependentUpon>detailedInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="detailedInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deviceSummary.Designer.vb">
+      <DependentUpon>deviceSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deviceSummary.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mainMenu.Designer.vb">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mainWindow.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="mainWindow.Designer.vb">
+      <DependentUpon>mainWindow.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -92,16 +111,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="loginScreen.Designer.vb">
+      <DependentUpon>loginScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loginScreen.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="detailedInfo.resx">
+      <DependentUpon>detailedInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deviceSummary.resx">
+      <DependentUpon>deviceSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu.resx">
+      <DependentUpon>mainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainWindow.resx">
+      <DependentUpon>mainWindow.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginScreen.resx">
+      <DependentUpon>loginScreen.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

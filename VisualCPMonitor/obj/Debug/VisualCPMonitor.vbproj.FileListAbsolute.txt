@@ -7,4 +7,9 @@ c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCP
 c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.exe
 c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.xml
 c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.pdb
-c:\users\carlo-ev\documents\visual studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.Form1.resources
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.vbprojResolveAssemblyReference.cache
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.loginScreen.resources
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.detailedInfo.resources
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.mainWindow.resources
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.mainMenu.resources
+C:\Users\carlo-ev\Documents\Visual Studio 2013\Projects\VisualCPMonitor\VisualCPMonitor\obj\Debug\VisualCPMonitor.deviceSummary.resources
