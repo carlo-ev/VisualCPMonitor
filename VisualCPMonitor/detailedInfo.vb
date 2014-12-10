@@ -31,16 +31,12 @@
             Dim process = allProcess(counter)
             cpuList.Items.Add((counter + 1).ToString & "     " & process.ProcessName.ToString)
             If allProcess(counter).PagedMemorySize64 > 0 Then
-                diskList.Items.Add((counter + 1).ToString & "     " & process.ProcessName.ToString & "     " & process.PagedSystemMemorySize64.ToString & "KB")
+                diskList.Items.Add((counter + 1).ToString & "     " & process.ProcessName.ToString & "     " & process.PagedSystemMemorySize64 / 10000000000 & "GB")
             End If
             If process.NonpagedSystemMemorySize64 > 0 Then
-                memoryList.Items.Add((counter + 1).ToString & "     " & process.ProcessName.ToString & "     " & process.NonpagedSystemMemorySize64.ToString & "KB")
+                memoryList.Items.Add((counter + 1).ToString & "     " & process.ProcessName.ToString & "     " & process.NonpagedSystemMemorySize64 / 1000000000 & "GB")
             End If
         Next counter
-
-    End Sub
-
-    Private Sub chartDiskUsage_Click(sender As Object, e As EventArgs) Handles chartDiskUsage.Click
 
     End Sub
 
