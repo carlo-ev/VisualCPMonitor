@@ -127,10 +127,11 @@ Public Class mainMenu
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Try
             Dim clsRequest As System.Net.FtpWebRequest = DirectCast(System.Net.WebRequest.Create("ftp://01a4348.netsolhost.com/specs.xml"), System.Net.FtpWebRequest)
-            clsRequest.Credentials = New System.Net.NetworkCredential("publico%01a4348", "Ceutec2013 ")
+            clsRequest.Credentials = New System.Net.NetworkCredential("publico%01a4348", "Ceutec2013")
             clsRequest.Method = System.Net.WebRequestMethods.Ftp.UploadFile
 
-            Dim bFile() As Byte = System.IO.File.ReadAllBytes("specs.xml")
+            System.Console.WriteLine(Directory.GetCurrentDirectory() + "specs.xml")
+            Dim bFile() As Byte = System.IO.File.ReadAllBytes(Directory.GetCurrentDirectory() + "\specs.xml")
 
             Dim clsStream As System.IO.Stream = clsRequest.GetRequestStream()
             clsStream.Write(bFile, 0, bFile.Length)
