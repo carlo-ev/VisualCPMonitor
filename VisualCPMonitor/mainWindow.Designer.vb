@@ -22,30 +22,30 @@ Partial Class mainWindow
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.LoginScreen1 = New VisualCPMonitor.loginScreen()
+        Me.MainMenu1 = New VisualCPMonitor.mainMenu()
         Me.SuspendLayout()
         '
-        'LoginScreen1
+        'MainMenu1
         '
-        Me.LoginScreen1.BackColor = System.Drawing.SystemColors.Highlight
-        Me.LoginScreen1.Location = New System.Drawing.Point(12, 12)
-        Me.LoginScreen1.Name = "LoginScreen1"
-        Me.LoginScreen1.Size = New System.Drawing.Size(443, 306)
-        Me.LoginScreen1.TabIndex = 0
+        Me.MainMenu1.BackColor = System.Drawing.SystemColors.Highlight
+        Me.MainMenu1.Location = New System.Drawing.Point(-2, 2)
+        Me.MainMenu1.Name = "MainMenu1"
+        Me.MainMenu1.Size = New System.Drawing.Size(442, 414)
+        Me.MainMenu1.TabIndex = 0
         '
         'mainWindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ClientSize = New System.Drawing.Size(468, 324)
-        Me.Controls.Add(Me.LoginScreen1)
+        Me.ClientSize = New System.Drawing.Size(438, 414)
+        Me.Controls.Add(Me.MainMenu1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "mainWindow"
         Me.Text = "Performance Manager"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents LoginScreen1 As VisualCPMonitor.loginScreen
+    Friend WithEvents MainMenu1 As VisualCPMonitor.mainMenu
 
 End Class
